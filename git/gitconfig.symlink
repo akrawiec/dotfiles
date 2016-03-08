@@ -13,7 +13,7 @@
 [apply]
         whitespace = nowarn
 [github]
-        user = bbttxu
+        user = akrawiec 
 [push]
 	default = simple
 [filter "media"]
