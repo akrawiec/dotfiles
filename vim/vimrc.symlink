@@ -1,18 +1,8 @@
 
-if has('vim_starting')
-  set nocompatible               " Be iMproved
-
-  " Required:
-  set runtimepath+=/Users/akrawiec/.vim/bundle/neobundle.vim/
-endif
-
-"dein Scripts-----------------------------
+"NeoBundle Scripts-----------------------------
 if &compatible
   set nocompatible               " Be iMproved
 endif
-
-" Required:
-set runtimepath+=/Users/adam/.vim/bundle/repos/github.com/Shougo/dein.vim
 
 " Required:
 if dein#load_state('/Users/adam/.vim/bundle')
