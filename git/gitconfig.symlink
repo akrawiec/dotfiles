@@ -1,6 +1,6 @@
 [user]
         name = Adam Krawiec
-        email = adamkrawiec@gmail.com
+        email = akrawiec@santanderconsumerusa.com
 [color]
         diff = auto
         status = auto
@@ -19,3 +19,5 @@
 [filter "media"]
 	clean = git-media-clean %f
 	smudge = git-media-smudge %f
+[alias]
+	co = checkout
