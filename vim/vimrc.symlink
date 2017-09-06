@@ -1,8 +1,11 @@
 
-"NeoBundle Scripts-----------------------------
+"dein Scripts-----------------------------
 if &compatible
   set nocompatible               " Be iMproved
 endif
+
+" Required:
+set runtimepath+=/Users/adam/.vim/bundle/repos/github.com/Shougo/dein.vim
 
 " Required:
 if dein#load_state('/Users/adam/.vim/bundle')
@@ -35,6 +38,7 @@ syntax enable
 
 "End dein Scripts-------------------------
 
+
 set laststatus=2
 
 set hidden
@@ -55,9 +59,5 @@ set relativenumber
 map <C-n> :NERDTreeToggle<CR>
 
 nnoremap <SPACE> <Nop>
-<<<<<<< HEAD
 let mapleader = "\<Space>" 
 inoremap jk <esc>
-=======
-let mapleader = "\<Space>"
->>>>>>> work
