@@ -1,6 +1,6 @@
 [user]
-        name = Adam Krawiec
-        email = adamkrawiec@gmail.com
+	name = akrawiec
+        email = akrawiec@santanderconsumerusa.com
 [color]
         diff = auto
         status = auto
@@ -13,7 +13,7 @@
 [apply]
         whitespace = nowarn
 [github]
-        user = bbttxu
+        user = akrawiec
 [push]
 	default = simple
 [filter "media"]
