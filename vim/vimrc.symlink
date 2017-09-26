@@ -1,15 +1,8 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> master
 "dein Scripts-----------------------------
 if &compatible
   set nocompatible               " Be iMproved
 endif
 
-<<<<<<< HEAD
-" Required:
-<<<<<<< HEAD
 set runtimepath+=/Users/akrawiec/.vim/bundle/repos/github.com/Shougo/dein.vim
 
 " Required:
@@ -33,38 +26,6 @@ if dein#load_state('/Users/akrawiec/.vim/bundle')
 
   " You can specify revision/branch/tag.
   call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
-=======
-set runtimepath+=/home/adam/.vim/bundles/repos/github.com/Shougo/dein.vim
-
-" Required:
-if dein#load_state('/home/adam/.vim/bundles')
-  call dein#begin('/home/adam/.vim/bundles')
-
-  " Let dein manage dein
-  " Required:
-  call dein#add('/home/adam/.vim/bundles/repos/github.com/Shougo/dein.vim')
-=======
-"dein Scripts-----------------------------
-if &compatible
-  set nocompatible               " Be iMproved
-endif
-
-" Required:
-set runtimepath+=/Users/adam/.vim/bundle/repos/github.com/Shougo/dein.vim
-
-" Required:
-if dein#load_state('/Users/adam/.vim/bundle')
-  call dein#begin('/Users/adam/.vim/bundle')
-
-  " Let dein manage dein
-  " Required:
-  call dein#add('/Users/adam/.vim/bundle/repos/github.com/Shougo/dein.vim')
->>>>>>> 724a2140f3597a40a3053fe2fc194b7e3ab2eaae
-
-  " Add or remove your plugins here:
-  call dein#add('Shougo/neosnippet.vim')
-  call dein#add('Shougo/neosnippet-snippets')
-<<<<<<< HEAD
   call dein#add('kien/ctrlp.vim')
 	call dein#add('bling/vim-airline')
 	call dein#add('airblade/vim-gitgutter')
@@ -72,16 +33,10 @@ if dein#load_state('/Users/adam/.vim/bundle')
 	call dein#add('easymotion/vim-easymotion')
 	
 	call dein#add('kchmck/vim-coffee-script')
-=======
->>>>>>> 724a2140f3597a40a3053fe2fc194b7e3ab2eaae
 
   " You can specify revision/branch/tag.
   call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
 
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 724a2140f3597a40a3053fe2fc194b7e3ab2eaae
   " Required:
   call dein#end()
   call dein#save_state()
@@ -89,9 +44,6 @@ endif
 
 " Required:
 filetype plugin indent on
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 syntax enable
 
 " If you want to install not installed plugins on startup.
