@@ -1,6 +1,6 @@
 [user]
-	name = akrawiec
-	email = akrawiec@santanderconsumerusa.com
+        name = Adam Krawiec
+        email = akrawiec@santanderconsumerusa.com
 [color]
         diff = auto
         status = auto
@@ -24,3 +24,5 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[alias]
+	co = checkout
