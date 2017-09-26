@@ -5,6 +5,64 @@ endif
 
 set runtimepath+=/Users/akrawiec/.vim/bundle/repos/github.com/Shougo/dein.vim
 
+"dein Scripts-----------------------------
+if &compatible
+  set nocompatible               " Be iMproved
+endif
+
+" Required:
+set runtimepath+=/Users/akrawiec/.vim/bundle/repos/github.com/Shougo/dein.vim
+
+" Required:
+if dein#load_state('/Users/akrawiec/.vim/bundle')
+  call dein#begin('/Users/akrawiec/.vim/bundle')
+
+  " Let dein manage dein
+  " Required:
+  call dein#add('/Users/akrawiec/.vim/bundle/repos/github.com/Shougo/dein.vim')
+
+  " Add or remove your plugins here:
+  call dein#add('Shougo/neosnippet.vim')
+  call dein#add('Shougo/neosnippet-snippets')
+  call dein#add('kien/ctrlp.vim')
+	call dein#add('bling/vim-airline')
+	call dein#add('airblade/vim-gitgutter')
+	call dein#add('editorconfig/editorconfig-vim')
+	call dein#add('easymotion/vim-easymotion')
+	
+	call dein#add('kchmck/vim-coffee-script')
+
+  " You can specify revision/branch/tag.
+  call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
+  call dein#add('kien/ctrlp.vim')
+	call dein#add('bling/vim-airline')
+	call dein#add('airblade/vim-gitgutter')
+	call dein#add('editorconfig/editorconfig-vim')
+	call dein#add('easymotion/vim-easymotion')
+	
+	call dein#add('kchmck/vim-coffee-script')
+
+
+  " Required:
+  call dein#end()
+  call dein#save_state()
+endif
+
+" Required:
+filetype plugin indent on
+syntax enable
+
+" If you want to install not installed plugins on startup.
+"if dein#check_install()
+"  call dein#install()
+"endif
+
+"End dein Scripts-------------------------
+
+
+
+
+
 " Required:
 if dein#load_state('/Users/akrawiec/.vim/bundle')
   call dein#begin('/Users/akrawiec/.vim/bundle')
@@ -59,48 +117,6 @@ endif
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
-syntax enable
-
-" If you want to install not installed plugins on startup.
-"if dein#check_install()
-"  call dein#install()
-"endif
->>>>>>> 724a2140f3597a40a3053fe2fc194b7e3ab2eaae
-
-"End dein Scripts-------------------------
-
 set laststatus=2
 
 set hidden
@@ -108,31 +124,7 @@ set hidden
 set shiftwidth=2
 set tabstop=2
 
->>>>>>> master
 syntax enable
 
-" If you want to install not installed plugins on startup.
-"if dein#check_install()
-"  call dein#install()
-"endif
-
-<<<<<<< HEAD
-"End dein Scripts-------------------------
-=======
-" autocmd StdinReadPre * let s:std_in=1
-" autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-map <C-n> :NERDTreeToggle<CR>
-
-nnoremap <SPACE> <Nop>
-<<<<<<< HEAD
 let mapleader = "\<Space>" 
 inoremap jk <esc>
->>>>>>> master
-=======
-<<<<<<< HEAD
-let mapleader = "\<Space>" 
-inoremap jk <esc>
-=======
-let mapleader = "\<Space>"
->>>>>>> work
->>>>>>> 724a2140f3597a40a3053fe2fc194b7e3ab2eaae
