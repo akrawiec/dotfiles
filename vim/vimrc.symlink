@@ -3,7 +3,7 @@ if &compatible
   set nocompatible               " Be iMproved
 endif
 
-set runtimepath+=/Users/akrawiec/.vim/bundle/repos/github.com/Shougo/dein.vim
+set runtimepath+=/Users/adam/.vim/bundle/repos/github.com/Shougo/dein.vim
 
 "dein Scripts-----------------------------
 if &compatible
@@ -11,15 +11,15 @@ if &compatible
 endif
 
 " Required:
-set runtimepath+=/Users/akrawiec/.vim/bundle/repos/github.com/Shougo/dein.vim
+set runtimepath+=/Users/adam/.vim/bundle/repos/github.com/Shougo/dein.vim
 
 " Required:
-if dein#load_state('/Users/akrawiec/.vim/bundle')
-  call dein#begin('/Users/akrawiec/.vim/bundle')
+if dein#load_state('/Users/adam/.vim/bundle')
+  call dein#begin('/Users/adam/.vim/bundle')
 
   " Let dein manage dein
   " Required:
-  call dein#add('/Users/akrawiec/.vim/bundle/repos/github.com/Shougo/dein.vim')
+  call dein#add('/Users/adam/.vim/bundle/repos/github.com/Shougo/dein.vim')
 
   " Add or remove your plugins here:
   call dein#add('Shougo/neosnippet.vim')
@@ -64,12 +64,12 @@ syntax enable
 
 
 " Required:
-if dein#load_state('/Users/akrawiec/.vim/bundle')
-  call dein#begin('/Users/akrawiec/.vim/bundle')
+if dein#load_state('/Users/adam/.vim/bundle')
+  call dein#begin('/Users/adam/.vim/bundle')
 
   " Let dein manage dein
   " Required:
-  call dein#add('/Users/akrawiec/.vim/bundle/repos/github.com/Shougo/dein.vim')
+  call dein#add('/Users/adam/.vim/bundle/repos/github.com/Shougo/dein.vim')
 
   " Add or remove your plugins here:
   call dein#add('Shougo/neosnippet.vim')
