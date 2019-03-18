@@ -3,13 +3,6 @@ if &compatible
   set nocompatible               " Be iMproved
 endif
 
-set runtimepath+=/Users/akrawiec/.vim/bundle/repos/github.com/Shougo/dein.vim
-
-"dein Scripts-----------------------------
-if &compatible
-  set nocompatible               " Be iMproved
-endif
-
 " Required:
 set runtimepath+=/Users/akrawiec/.vim/bundle/repos/github.com/Shougo/dein.vim
 
